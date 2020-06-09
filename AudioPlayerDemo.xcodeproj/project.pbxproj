@@ -13,6 +13,15 @@
 		47CE9D1D248F105E007F065B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47CE9D1B248F105E007F065B /* Main.storyboard */; };
 		47CE9D1F248F1061007F065B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47CE9D1E248F1061007F065B /* Assets.xcassets */; };
 		47CE9D22248F1061007F065B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47CE9D20248F1061007F065B /* LaunchScreen.storyboard */; };
+		47CE9D33248F1126007F065B /* swish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47CE9D2A248F1125007F065B /* swish.mp3 */; };
+		47CE9D34248F1126007F065B /* boing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47CE9D2B248F1125007F065B /* boing.mp3 */; };
+		47CE9D35248F1126007F065B /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47CE9D2C248F1125007F065B /* explosion.mp3 */; };
+		47CE9D36248F1126007F065B /* bach.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47CE9D2D248F1125007F065B /* bach.mp3 */; };
+		47CE9D37248F1126007F065B /* warble.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47CE9D2E248F1125007F065B /* warble.mp3 */; };
+		47CE9D38248F1126007F065B /* shoot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47CE9D2F248F1126007F065B /* shoot.mp3 */; };
+		47CE9D39248F1126007F065B /* hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47CE9D30248F1126007F065B /* hit.mp3 */; };
+		47CE9D3A248F1126007F065B /* wah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47CE9D31248F1126007F065B /* wah.mp3 */; };
+		47CE9D3B248F1126007F065B /* knife.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47CE9D32248F1126007F065B /* knife.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		47CE9D1E248F1061007F065B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47CE9D21248F1061007F065B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47CE9D23248F1061007F065B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47CE9D2A248F1125007F065B /* swish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swish.mp3; sourceTree = "<group>"; };
+		47CE9D2B248F1125007F065B /* boing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boing.mp3; sourceTree = "<group>"; };
+		47CE9D2C248F1125007F065B /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		47CE9D2D248F1125007F065B /* bach.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bach.mp3; sourceTree = "<group>"; };
+		47CE9D2E248F1125007F065B /* warble.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = warble.mp3; sourceTree = "<group>"; };
+		47CE9D2F248F1126007F065B /* shoot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shoot.mp3; sourceTree = "<group>"; };
+		47CE9D30248F1126007F065B /* hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hit.mp3; sourceTree = "<group>"; };
+		47CE9D31248F1126007F065B /* wah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wah.mp3; sourceTree = "<group>"; };
+		47CE9D32248F1126007F065B /* knife.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = knife.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +79,27 @@
 				47CE9D19248F105E007F065B /* ViewController.swift */,
 				47CE9D1B248F105E007F065B /* Main.storyboard */,
 				47CE9D1E248F1061007F065B /* Assets.xcassets */,
+				47CE9D29248F108B007F065B /* sounds */,
 				47CE9D20248F1061007F065B /* LaunchScreen.storyboard */,
 				47CE9D23248F1061007F065B /* Info.plist */,
 			);
 			path = AudioPlayerDemo;
+			sourceTree = "<group>";
+		};
+		47CE9D29248F108B007F065B /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				47CE9D2D248F1125007F065B /* bach.mp3 */,
+				47CE9D2B248F1125007F065B /* boing.mp3 */,
+				47CE9D2C248F1125007F065B /* explosion.mp3 */,
+				47CE9D30248F1126007F065B /* hit.mp3 */,
+				47CE9D32248F1126007F065B /* knife.mp3 */,
+				47CE9D2F248F1126007F065B /* shoot.mp3 */,
+				47CE9D2A248F1125007F065B /* swish.mp3 */,
+				47CE9D31248F1126007F065B /* wah.mp3 */,
+				47CE9D2E248F1125007F065B /* warble.mp3 */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +160,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47CE9D35248F1126007F065B /* explosion.mp3 in Resources */,
+				47CE9D38248F1126007F065B /* shoot.mp3 in Resources */,
+				47CE9D3A248F1126007F065B /* wah.mp3 in Resources */,
 				47CE9D22248F1061007F065B /* LaunchScreen.storyboard in Resources */,
+				47CE9D3B248F1126007F065B /* knife.mp3 in Resources */,
+				47CE9D36248F1126007F065B /* bach.mp3 in Resources */,
+				47CE9D39248F1126007F065B /* hit.mp3 in Resources */,
+				47CE9D33248F1126007F065B /* swish.mp3 in Resources */,
+				47CE9D34248F1126007F065B /* boing.mp3 in Resources */,
+				47CE9D37248F1126007F065B /* warble.mp3 in Resources */,
 				47CE9D1F248F1061007F065B /* Assets.xcassets in Resources */,
 				47CE9D1D248F105E007F065B /* Main.storyboard in Resources */,
 			);
